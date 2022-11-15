@@ -2,19 +2,19 @@
 
 You can use this package as an interactive way of testing/debugging new feature in the Y-CRDT ecosystem. For example, you can try the new move feature moving an element from a javascript client and seen the update on a python client as follows:
 
-1- Launch a websocket server:
-		* Run a JavaScript server with: `cd yjs_client && yarn && yarn server`
-		* or run a Python server with: `python ypy_client/server.py`
-2- Launch a Yjs client: `cd yjs_client && yarn && yarn build:array && yarn start:http`
-3- Launch a Ypy client: `jupyter-notebook client.ipynb` and run the first three cells
-4- Initialize the document:
-		1- Go to the empty webpage you launched in the step 2.
-		2- Open the dev console in your browser.
-		3- Access the YArray from the dev console by running: `const test = window.rtc.test;`.
-		4- Add some items to the array from the dev console by running: `test.push([0,1,2,3,4,5,6,7,8,9]);`.
-		6- Check the Ypy client was updated by running `print(test)` in the client.ipynb.
-		5- Move an element from the dev console by running: `test.move(0, 3);`.
-		6- Check again the Ypy client by running `print(test)` in the client.ipynb.
+1. Launch a websocket server:
+	* Run a JavaScript server with: `cd yjs_client && yarn && yarn server`
+	* or run a Python server with: `python ypy_client/server.py`
+2. Launch a Yjs client: `cd yjs_client && yarn && yarn build:array && yarn start:http`
+3. Launch a Ypy client: `jupyter-notebook client.ipynb` and run the first three cells
+4. Initialize the document:
+	1. Go to the empty webpage you launched in the step 2.
+	2. Open the dev console in your browser.
+	3. Access the YArray from the dev console by running: `const test = window.rtc.test;`.
+	4. Add some items to the array from the dev console by running: `test.push([0,1,2,3,4,5,6,7,8,9]);`.
+	6. Check the Ypy client was updated by running `print(test)` in the client.ipynb.
+	5. Move an element from the dev console by running: `test.move(0, 3);`.
+	6. Check again the Ypy client by running `print(test)` in the client.ipynb.
 
 ## Environment
 
