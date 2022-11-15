@@ -1,0 +1,35 @@
+
+{
+  "name": "yjs_exp",
+  "version": "0.1.0",
+  "author": "Carlos Herrero",
+  "description": "RTC experiment with Yjs",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,js,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf node_modules dist yarn.lock",
+    "build:array": "webpack --entry=./src/array.ts",
+    "watch:array": "webpack --watch  --entry=./src/array.ts",
+    "start:http": "concurrently 'http-server -o dist/index.html'",
+    "start": "concurrently 'yarn server' 'http-server -o dist/index.html'",
+    "server": "HOST=localhost PORT=8888 npx y-websocket"
+  },
+  "dependencies": {
+		"yjs": "^14.0.0-0",
+    "y-webrtc": "^10.2.3",
+		"y-websocket": "1.4.5"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "http-server": "^14.1.1",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+		"copy-webpack-plugin": "^11.0.0"
+  }
+}

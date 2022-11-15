@@ -1,0 +1,8 @@
+
+# javascript/typescript
+dist
+node_modules
+
+# Jupyter
+.ipynb_checkpoints
+.virtual_documents
