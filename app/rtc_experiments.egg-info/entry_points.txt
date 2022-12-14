@@ -1,0 +1,3 @@
+[console_scripts]
+rtc-app = backend.__main__:app
+rtc-cli = cli.__main__:app

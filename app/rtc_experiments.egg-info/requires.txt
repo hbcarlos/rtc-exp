@@ -1,0 +1,8 @@
+typer
+uvicorn
+websockets
+fastapi
+y-py
+ypy-websocket
+
+[test]

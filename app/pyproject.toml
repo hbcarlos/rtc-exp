@@ -1,0 +1,40 @@
+[project]
+name = "rtc_experiments"
+version = "0.1.0"
+description = "RTC experiment with Yjs"
+requires-python = ">=3.7"
+dependencies = [
+  "typer",
+  "uvicorn",
+  "websocket",
+  "fastapi",
+  "y-py",
+  "ypy-websocket",
+  "prompt_toolkit"
+]
+classifiers = [
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10"
+]
+
+[[project.authors]]
+name = "Carlos Herrero"
+email = "contact@carloshb.com"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.optional-dependencies]
+test = []
+
+[project.scripts]
+rtc-app = "backend.__main__:app"
+rtc-cli = "cli.__main__:app"
+
+[tool.setuptools.packages.find]
+include = ["backend", "cli"]

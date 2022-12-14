@@ -1,0 +1,35 @@
+
+{
+  "name": "app",
+  "version": "0.1.0",
+  "author": "Carlos Herrero",
+  "description": "RTC experiment with Yjs",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,js,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rimraf lib node_modules tsconfig.tsbuildinfo",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+		"react-dom": "18.2.0",
+		"yjs": "^14.0.0-0",
+		"y-websocket": "1.4.5"
+  },
+  "devDependencies": {
+		"@types/react": "^18.0.21",
+		"@types/react-dom": "^18.0.6",
+    "rimraf": "^3.0.2",
+		"ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+		"copy-webpack-plugin": "^11.0.0"
+  }
+}
