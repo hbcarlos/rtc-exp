@@ -13,9 +13,11 @@
     "clean": "rimraf node_modules dist yarn.lock",
     "build:array": "webpack --entry=./src/array.ts",
     "watch:array": "webpack --watch  --entry=./src/array.ts",
+    "build:text": "webpack --entry=./src/text.ts",
+    "watch:text": "webpack --watch  --entry=./src/text.ts",
     "start:http": "concurrently 'http-server -o dist/index.html'",
     "start": "concurrently 'yarn server' 'http-server -o dist/index.html'",
-    "server": "HOST=localhost PORT=8888 npx y-websocket"
+    "server": "HOST=localhost PORT=8000 npx y-websocket"
   },
   "dependencies": {
 		"yjs": "^14.0.0-0",

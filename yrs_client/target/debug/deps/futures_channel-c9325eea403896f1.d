@@ -1,0 +1,10 @@
+/Users/carlos/Documents/qs/y-crdt/rtc-exp/yrs_client/target/debug/deps/futures_channel-c9325eea403896f1.rmeta: /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/sink_impl.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/Users/carlos/Documents/qs/y-crdt/rtc-exp/yrs_client/target/debug/deps/futures_channel-c9325eea403896f1.d: /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/sink_impl.rs /Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs:
+/Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs:
+/Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs:
+/Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs:
+/Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/sink_impl.rs:
+/Users/carlos/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs:

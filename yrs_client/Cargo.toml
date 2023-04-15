@@ -7,8 +7,11 @@ license = "MIT"
 authors = ["Carlos Herrero"]
 
 [dependencies]
-lib0 = "0.12"
-yrs = "0.12"
-yrs-warp = "0.2"
+lib0 = "0.13"
+yrs = "0.13"
+y-sync = "0.1"
+url = "2.2.2"
+tungstenite = "0.16.0"
+yrs-warp = "0.3"
 warp = "0.3"
 tokio = { version = "1.20", features = ["full"] }

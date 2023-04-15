@@ -3,7 +3,7 @@ import { WebsocketProvider } from 'y-websocket';
 
 const doc = new Doc();
 const test = doc.getArray('test');
-const provider = new WebsocketProvider('ws://localhost:8888', 'rtc_yjs_test', doc);
+const provider = new WebsocketProvider('ws://localhost:8889', 'rtc_yjs_test', doc, { disableBc: true });
 
 provider.on('status', event => console.debug("STATUS:", event.status));
 provider.on('sync', (isSynced) => console.debug("SYNC:", isSynced));
